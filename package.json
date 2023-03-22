@@ -2,20 +2,12 @@
   "name": "takarafront",
   "version": "0.0.0",
   "scripts": {
-<<<<<<< HEAD
     "build": "run-p type-check build-only",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build-only": "vite build",
     "dev": "vite",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit"
-=======
-    "serve": "vite preview",
-    "build": "vite build",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "dev": "vite",
-    "preview": "vite preview"
->>>>>>> correccion inicio
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
@@ -27,7 +19,6 @@
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@rushstack/eslint-patch": "^1.1.4",
     "@types/node": "^16.11.68",
     "@types/webfontloader": "^1.0.0",
@@ -44,13 +35,5 @@
     "vue-cli-plugin-vuetify": "~2.5.8",
     "vue-tsc": "^1.0.8",
     "webpack-plugin-vuetify": "^2.0.0-alpha.0"
-=======
-    "@vitejs/plugin-vue": "^3.1.2",
-    "eslint": "^8.22.0",
-    "eslint-plugin-vue": "^9.3.0",
-    "vite": "^3.1.8",
-    "vite-plugin-vuetify": "^1.0.0-alpha.12",
-    "vue-cli-plugin-vuetify": "~2.5.8"
->>>>>>> correccion inicio
   }
 }
