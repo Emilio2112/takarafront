@@ -29,7 +29,10 @@ i {
   place-content: center;
   width: 32px;
   height: 32px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> correccion inicio
   color: var(--color-text);
 }
 

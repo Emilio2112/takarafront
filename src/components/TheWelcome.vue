@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <script setup lang="ts">
+=======
+<script setup>
+>>>>>>> correccion inicio
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
